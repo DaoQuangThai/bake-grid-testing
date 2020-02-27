@@ -1,0 +1,32 @@
+/*
+1200: large
+992: medium
+767: small
+500: ex-small
+*/
+
+// @mixin responsive($break-point) {
+//   @if $break-point == large {
+//     @media only screen and (max-width: 1200px) {
+//       @content;
+//     }
+//   }
+
+//   @if $break-point == medium {
+//     @media only screen and (max-width: 992px) {
+//       @content;
+//     }
+//   }
+
+//   @if $break-point == small {
+//     @media only screen and (max-width: 767px) {
+//       @content;
+//     }
+//   }
+
+//   @if $break-point == ex-small {
+//     @media only screen and (max-width: 600px) {
+//       @content;
+//     }
+//   }
+// }

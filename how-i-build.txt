@@ -1,0 +1,31 @@
+# Bake  for testing
+
+A Project for testing purpose
+
+How is gonna built this project? (solve in good way?)
+
+PART 1
+Input? output?
+-- Output?
+-- Input? + gồm những phần gì? + sử dụng công nghệ gì? + xây dựng thế nào? + cần bao nhiêu quả cà chua để hoàn thành?
+
+1 - Set variable for font, color, base-setup!
+2 - phân tích tổng thể layout và chia layout overall với html and css
+3 - set up reusable componet, utility
+4 - chuẩn bị img, chuan bi svg icon
+
+
+
+PART 2
+1 - Bắt tay vào làm từng phần
+-- 5 điểm này ở đâu? (cái nào dễ làm trước)
+
+**Action**
+-- select section have some in commons to build
+-- finshed responsive after each section
+-- expand and create better features
+-- too difficult or need to research more, save to the last
+
+
+
+

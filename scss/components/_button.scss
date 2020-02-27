@@ -1,0 +1,16 @@
+.btn {
+  background-color: $secondary-color;
+  border: none;
+  outline: 0;
+  font-family: $primary-font;
+  font-size: 1.4rem;
+
+  &--white {
+    color: #fff;
+    border: 1px solid #fff;
+  }
+
+  &--dark {
+    color: #000;
+  }
+}

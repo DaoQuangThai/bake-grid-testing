@@ -1,0 +1,14 @@
+@import "./helpers/variables";
+@import "./helpers/mixins";
+
+@import "./base/base-setup";
+
+@import "./layout/overall-layout.scss";
+
+//component
+@import "./components/heading";
+@import "./components/button";
+
+// pages
+
+@import "./utilities/utilities.scss";

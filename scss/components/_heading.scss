@@ -1,0 +1,27 @@
+%heading {
+  font-family: $primary-font;
+  font-weight: 600;
+}
+
+.heading-1 {
+  @extend %heading;
+  font-size: 5.5rem;
+}
+.heading-2 {
+  @extend %heading;
+  font-size: 5rem;
+}
+.heading-3 {
+  @extend %heading;
+  font-size: 3rem;
+}
+.heading-4 {
+  @extend %heading;
+  font-size: 2rem;
+}
+
+.heading-5 {
+  @extend %heading;
+  font-weight: 500;
+  font-size: 2rem;
+}
