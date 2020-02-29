@@ -6,14 +6,21 @@
 .heading-1 {
   @extend %heading;
   font-size: 5.5rem;
+  color: #fff;
 }
 .heading-2 {
   @extend %heading;
   font-size: 5rem;
+  color: #fff;
+  text-transform: uppercase;
 }
 .heading-3 {
   @extend %heading;
   font-size: 3rem;
+
+  &--white {
+    color: #fff;
+  }
 }
 .heading-4 {
   @extend %heading;

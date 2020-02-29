@@ -1,0 +1,49 @@
+.services {
+  background-image: linear-gradient(rgba(#fff, 0.6), rgba(#fff, 0.6)),
+    url("../imgs/cc1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &__list {
+    text-align: center;
+  }
+  &__item {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    &:hover {
+      .services__icon {
+        fill: $secondary-color;
+      }
+    }
+  }
+
+  &__icon {
+    width: 10rem;
+    height: 10rem;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    fill: $primary-color;
+    transition: fill 0.35s;
+
+    &:hover {
+      fill: $secondary-color;
+    }
+  }
+  &__text {
+  }
+
+  &__button {
+    padding: 1.3rem 4rem;
+    transition: all 0.3s;
+
+    // &:hover {
+    //   background-color: #fff;
+    //   color: #000;
+    //   border: 2px solid $secondary-color;
+    // }
+  }
+}

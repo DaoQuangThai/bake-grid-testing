@@ -10,5 +10,12 @@
 @import "./components/button";
 
 // pages
+@import "./pages/nav.scss";
+@import "./pages/header.scss";
+@import "./pages/features";
+@import "./pages/count";
+@import "./pages/services";
+@import "./pages/gallery";
 
+//utilities
 @import "./utilities/utilities.scss";

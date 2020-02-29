@@ -1,0 +1,73 @@
+// $secondary-color;
+.nav {
+  background-color: $primary-color;
+  width: 100%;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  &__bugger {
+    height: 2px;
+    width: 4rem;
+    background-color: #fff;
+    display: none;
+    position: relative;
+    @include responsive(small) {
+      display: block;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 4rem;
+      background-color: #fff;
+      display: block;
+      transform: translateY(1.3rem);
+    }
+    &:before {
+      content: "";
+      height: 2px;
+      width: 4rem;
+      background-color: #fff;
+      display: block;
+      transform: translateY(-1.3rem);
+      position: absolute;
+    }
+  }
+  &__list {
+    display: flex;
+    @include responsive(small) {
+      display: none;
+    }
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 3rem;
+    }
+  }
+
+  &__link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: color 0.25s;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}

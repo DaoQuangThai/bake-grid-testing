@@ -1,0 +1,14 @@
+.count {
+  &__item {
+  }
+  &__num {
+    font-size: 3.5rem;
+    color: $primary-color;
+    font-weight: 600;
+  }
+  &__text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+  }
+}
